@@ -9,7 +9,7 @@ import jwt from "jsonwebtoken"
 app.use(cors({
     origin: '*', // Allow requests from this origin
     methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allow these HTTP methods
-    allowedHeaders: ['Content-Type'], 
+    
   }));
   
   app.use(express.json());
