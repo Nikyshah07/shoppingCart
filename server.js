@@ -235,6 +235,6 @@ app.post('/addcart/:userId', async (req, res) => {
     }
   });
   
-app.listen('8000',(req,res)=>{
+app.listen(process.env.PORT,(req,res)=>{
     console.log("Server started...")
 })
